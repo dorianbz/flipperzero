@@ -7,8 +7,8 @@ void rolling_flaws_setting_change(VariableItem *item, char **names, uint8_t *new
     *new_index = index;
 }
 
-uint32_t setting_frequency_values[] = {315000000, 390000000, 433920000};
-char *setting_frequency_names[] = {"315.00", "390.00", "433.92"};
+uint32_t setting_frequency_values[] = {315000000, 390000000, 433920000, 868000000};}
+char *setting_frequency_names[] = {"315.00", "390.00", "433.92", "868.00"};
 void rolling_flaws_setting_frequency_change(VariableItem *item)
 {
     RollingFlaws *app = variable_item_get_context(item);
